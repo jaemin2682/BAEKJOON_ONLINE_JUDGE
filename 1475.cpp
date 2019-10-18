@@ -7,7 +7,7 @@ int main() {
 	char n[8];
 	int arr[10] = { 0, };
 	int max=0;
-	scanf("%s", n);
+	scanf("%s", n); 
 
 	for (int i = 0; i < strlen(n);i++) {
 		arr[(int)n[i]-48]++;
