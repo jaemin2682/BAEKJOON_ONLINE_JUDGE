@@ -14,7 +14,7 @@ int main() {
 				n = n - h;
 				realw++;
 			}
-			else {
+			else { 
 				realh = n;
 				break;
 			}
