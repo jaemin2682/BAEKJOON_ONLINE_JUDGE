@@ -1,6 +1,0 @@
-
-*.exe
-.vscode/tasks.json
-.vscode/launch.json
-vc140.pdb
-*.json
