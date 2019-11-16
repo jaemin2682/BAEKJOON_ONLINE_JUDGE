@@ -9,18 +9,13 @@ int main() {
     for(int i=0;i<S1;i++) {
         long long RealAns, ManAns;
         cin >> RealAns >> ManAns;
-        if(RealAns != ManAns) {
-            Check1 = false;
-            break;
-        }
+        if(RealAns != ManAns) Check1 = false;
+
     }
     for(int i=0;i<S2;i++) {
         long long RealAns1, ManAns1;
         cin >> RealAns1 >> ManAns1;
-        if(RealAns1 != ManAns1) {
-            Check2 = false;
-            break;
-        }
+        if(RealAns1 != ManAns1) Check2 = false;
     }
 
     if(Check1 && Check2) cout << "Accepted";
